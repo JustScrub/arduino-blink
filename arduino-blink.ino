@@ -5,7 +5,7 @@
   This example code is in the public domain.
  */
 
-#define SEM_LED 1
+#include "blink_config.h"
 
 #if SEM_LED
   int green = 10;
@@ -33,10 +33,10 @@ void setup() {
 void loop() {
   #if SEM_LED
    digitalWrite(green,HIGH);
-  delay(3000);
+  delay(4000);
   digitalWrite(green,LOW);
    digitalWrite(yellow,HIGH);
-  delay(1000);
+  delay(1500);
   digitalWrite(yellow,LOW);
    digitalWrite(red,HIGH);
   delay(5000);
