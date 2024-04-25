@@ -39,7 +39,10 @@ void loop() {
   delay(1500);
   digitalWrite(yellow,LOW);
    digitalWrite(red,HIGH);
-  delay(5000);
+  delay(3500);
+  digitalWrite(yellow,HIGH);
+  delay(1500);
+  digitalWrite(yellow,LOW);
   digitalWrite(red,LOW);
   #else
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
