@@ -21,9 +21,9 @@
 void setup() {                
   // initialize the digital pin as an output.
   #if SEM_LED
-    pinMode(led, OUTPUT);
-    pinMode(led, OUTPUT);
-    pinMode(led, OUTPUT);
+    pinMode(green, OUTPUT);
+    pinMode(yellow, OUTPUT);
+    pinMode(red, OUTPUT);
   #else
     pinMode(led, OUTPUT);
   #endif
